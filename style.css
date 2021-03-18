@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *,
@@ -11,4 +12,5 @@ html {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
 }
