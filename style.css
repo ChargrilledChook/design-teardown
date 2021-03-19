@@ -1,6 +1,9 @@
+/* Set Up + Boilerplate */
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  --color1: rgb(179, 169, 169);
 }
 
 *,
@@ -13,4 +16,25 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
+}
+
+/* Header */
+
+.site-header {
+  background-color: var(--color1);
+}
+
+.site-header nav{
+  min-height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.site-top {
+  background-color: var(--color1);
+  margin: 2em 5em;
+  width: auto;
+  height: 50em;
+  display: grid;
 }
