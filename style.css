@@ -131,3 +131,10 @@ section, .site-header {
   border: 1px solid black;
   padding: 1em 3em;
 }
+
+/* Section 5 - Book CTA Small */
+
+.book-cta-small {
+  background-color: var(--color1);
+  padding: 2em;
+}
