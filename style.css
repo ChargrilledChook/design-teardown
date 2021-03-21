@@ -34,6 +34,10 @@ button {
   padding: .6em 1.4em;
 }
 
+section, .site-header {
+  margin-bottom: 3em;
+}
+
 /* Header */
 
 .site-header {
@@ -51,7 +55,8 @@ button {
 
 .site-top {
   background-color: var(--color1);
-  margin: 3em 8em;
+  margin-left: 8em;
+  margin-right: 8em;
 }
 
 .site-top-container {
@@ -69,7 +74,7 @@ button {
 
 .section2 {
   background-color: var(--color1);
-  margin: 1em 8em;
+  margin: 3em 8em;
 }
 .section2-container {
   display: grid;
@@ -91,4 +96,12 @@ button {
 .ads {
   height: 30em;
   grid-column: 1 / -1;
+}
+
+/* Section 3 - Large Book Cta */
+
+
+.book-cta-large {
+  background-color: var(--color1);
+  min-height: 100vh;
 }
