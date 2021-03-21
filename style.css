@@ -22,6 +22,18 @@ body {
   font-size: 1.6rem;
 }
 
+/* General Styles */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-size: 2rem;
+  padding: .6em 1.4em;
+}
+
 /* Header */
 
 .site-header {
