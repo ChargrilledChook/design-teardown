@@ -75,3 +75,8 @@ body {
   margin: auto;
   width: 45ch;
 }
+
+.ads {
+  height: 30em;
+  grid-column: 1 / -1;
+}
