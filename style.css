@@ -44,6 +44,10 @@ section, .site-header {
   margin-bottom: 3em;
 }
 
+.more-articles {
+  padding: 1em 0;
+}
+
 /* Header */
 
 .site-header {
@@ -75,6 +79,9 @@ section, .site-header {
   justify-content: center;
 }
 
+.newsletter-cta {
+  border: 5px dotted black;
+}
 
 /* 2nd Section */
 
@@ -89,23 +96,24 @@ section, .site-header {
 }
 
 .article-card {
-  grid-column: span 1;
+  width: 100%;
   background-color: var(--color3);
   text-align: center;
 }
 
 .article-card p {
   margin: auto;
-  width: 45ch;
+  max-width: 45ch;
 }
 
 .ads {
   height: 30em;
   grid-column: 1 / -1;
+  display: grid;
+  place-items: center;
 }
 
 /* Section 3 - Large Book Cta */
-
 
 .book-cta-large {
   background-color: var(--color1);
@@ -118,7 +126,7 @@ section, .site-header {
 }
 
 .image-ph {
-  border: 2px solid black;
+  border: 5px dotted black;
   width: 40%;
   flex: .7;
 }
