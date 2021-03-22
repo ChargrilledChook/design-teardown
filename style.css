@@ -153,7 +153,34 @@ section, .site-header {
   padding: 2em;
 }
 
-/* Section 6 - Even more articles */
+/* Section 6 - Community Highlights */
+
+.community-hl {
+  margin: 2em 8em;
+}
+
+.icon-ph {
+  border: 2px dashed black;
+  width: 4em;
+  height: 4em;
+  margin: 1em;
+  flex-shrink: 0;
+}
+
+.large {
+  width: 12em;
+  height: 12em;
+}
+
+.com-art {
+  display: flex;
+}
+
+.community-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 /* Site Footer */
 
